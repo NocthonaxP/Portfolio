@@ -1,0 +1,36 @@
+Idea:
+
+Because of limitations in technology (Micro:bit) and targeted “audience” 
+(primary school children) project must not be too complex. 
+Keeping in mind that project is aimed at kids I wanted to make something interactive that
+will have a potential to inspire them to continue learning programming and using micro controllers. 
+My love for game design pushed me to create simple game without graphics which would also be fit for blind people.
+
+Story:
+
+You are stuck in a sky labyrinth, sun has blinded you and only
+thing u have by your side is a bag full of rocks ( don’t ask, you just have it) 
+
+Game mechanics: 
+
+
+Game is played on a board which consists of walking and sky tiles. 
+Goal is to pass through the labyrinth while being blinded without falling out of the labyrinth ( stepping on the sky tile).
+Since you are blind and can’t see where u are walking,
+you’ll need to make use of those rocks you are carrying in your bag. 
+When you throw a rock it will bounce of the floor or fall down if hits the sky tile. 
+In short, player can throw rocks 3 tiles ahead of his position, if rock hits the floor tile 
+it produces sound and glove vibrates, if it hits the sky tile nothing happens.
+
+"technical" part:
+
+Matrix filled with '0' and '1' is randomly generated.
+Tiles with ones are floor tile while those with zeroes are sky tiles. 
+Rocks have 3 tile range. Game checks  three tiles in front of the player and plays sounds
+and vibrations accordingly. Micro:bit has integrated accelerometer which will be used as player controller. 
+Location of player in matrix will change accordingly to how player moves his hand
+
+Update:
+
+Unfortunately, organisers found idea too complex for kids. Code will be up as soon as 
+I get my hands on the Micro:bit (not a fan of uploading untested code).
