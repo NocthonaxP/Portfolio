@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Window.cpp">
+      <Filter>Source code\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Source code\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source code\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Sound.cpp">
+      <Filter>Source code\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Source code\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="The_Game.cpp">
+      <Filter>Source code\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Source code\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="poll_Events.cpp">
+      <Filter>Source code\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source code\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI.cpp">
+      <Filter>Source code\.cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Encounters.cpp">
+      <Filter>Source code\.cpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h">
+      <Filter>Source code\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Source code\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Source code\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sound.h">
+      <Filter>Source code\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Source code\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Source code\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="poll_Events.h">
+      <Filter>Source code\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Master_header.h">
+      <Filter>Source code\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Source code\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI.h">
+      <Filter>Source code\headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Encounters.h">
+      <Filter>Source code\headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source code">
+      <UniqueIdentifier>{07fe1785-58e7-4849-8949-cb85b55c7e31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="stuff">
+      <UniqueIdentifier>{17cd0ba2-a6dc-48ee-be46-b64d1af1b0d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source code\headers">
+      <UniqueIdentifier>{a58d9397-d035-4e0c-9c60-e43975393c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source code\.cpp">
+      <UniqueIdentifier>{41051802-e29b-4c7c-8a1f-4a7532b25fb2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config">
+      <Filter>stuff</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>stuff</Filter>
+    </Text>
+  </ItemGroup>
+</Project>
